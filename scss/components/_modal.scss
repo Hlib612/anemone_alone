@@ -1,0 +1,41 @@
+.subscribe_modal_title{
+    font-weight: 600;
+font-size: 28px;
+text-align: center;
+color: #000;
+}
+.subscribe_modal_description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-align: center;
+color: #5c5c5c;
+}
+.subscribe_modal_label{
+    font-weight: 500;
+font-size: 14px;
+color: #5c5c5c;
+}
+.subscribe_modal_input{
+    border: 1px solid #d7d7d7;
+border-radius: 4px;
+    width: 336px;
+    height: 50px;
+}
+.subscribe_modal_input::placeholder{
+    font-weight: 500;
+font-size: 14px;
+color: rgba(0, 0, 0, 0.4);
+}
+.subscribe_modal_submit-button{
+    border-radius: 8px;
+    border: none;
+padding: 15px 126px;
+width: 336px;
+height: 50px;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+color: #fff;
+background-color: #E86F54;
+}
