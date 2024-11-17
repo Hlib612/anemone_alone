@@ -1,10 +1,51 @@
 .subscribe_modal {
-  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 272px;
+  z-index: 1000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
+  border: 1px solid black;
+}
+@media (min-width: 768px) {
+  .subscribe_modal {
+    width: 588px;
+  }
+}
+@media (min-width: 1200px) {
+  .subscribe_modal {
+    width: 860px;
+    flex-direction: row;
+  }
+}
+
+.subscribe_modal::before {
+  content: "";
+  width: 100%;
+  height: 120px;
+  display: block;
+  background-color: white;
+  background-image: url("../../images/subscribe_phone_1x.jpg");
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .subscribe_modal::before {
+    height: 272px;
+    background-image: url("../../images/subscribe_tablet_1x.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  .subscribe_modal::before {
+    display: flex;
+    width: 428px;
+    height: 528px;
+    background-image: url("../../images/subscribe_desktop_1x.jpg");
+  }
 }
 
 .subscribe_modal_title {
@@ -135,6 +176,7 @@
 }
 @media (min-width: 1200px) {
   .subscribe_div {
+    padding-left: 40px;
     margin-bottom: 112px;
   }
 }/*# sourceMappingURL=main.css.map */
