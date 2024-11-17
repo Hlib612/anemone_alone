@@ -205,4 +205,18 @@
     padding-left: 40px;
     margin-bottom: 112px;
   }
+}
+
+.close_button {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 10px;
+  right: 10px;
+}
+@media (min-width: 768px) {
+  .close_button {
+    width: 24px;
+    height: 24px;
+  }
 }/*# sourceMappingURL=main.css.map */

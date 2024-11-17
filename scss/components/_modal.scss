@@ -56,12 +56,14 @@
 }
 .subscribe_modal_title{
     margin-bottom: 14px;
+    // padding-top: 18px;
     text-align: center;
     font-weight: 600;
 font-size: 19px;
 text-align: center;
 color: #000;
 @media(min-width: 768px) {
+    // padding-top: 28px;
     font-size: 28px;
     margin-bottom: 24px;
 }
@@ -162,7 +164,14 @@ padding: 14px 122px;
         margin-bottom: 112px;
     }
 }
-// .close_button{
-//     position: relative;
-//     padding: 20px;
-// }
+.close_button{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 10px;
+    right: 10px;
+    @media(min-width: 768px) {
+        width: 24px;
+        height: 24px; 
+    }
+}
