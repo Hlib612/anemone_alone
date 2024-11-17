@@ -70,6 +70,7 @@ color: #000;
 }
 .subscribe_modal_description{
     text-align: center;
+    margin-bottom: 18px;
     max-width: 236px;
     font-weight: 400;
 font-size: 12px;
@@ -77,6 +78,7 @@ line-height: 130%;
 text-align: center;
 color: #5c5c5c;
 @media(min-width: 768px) {
+    margin-bottom: 32px;
     font-size: 16px;
     max-width: 336px;
 }
