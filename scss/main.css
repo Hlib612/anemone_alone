@@ -103,6 +103,9 @@
   width: 236px;
   height: 35px;
   margin-bottom: 18px;
+  transition-property: border;
+  transition-duration: 750ms;
+  transition-timing-function: linear;
 }
 @media (min-width: 768px) {
   .subscribe_modal_input {
@@ -110,6 +113,13 @@
     height: 50px;
     margin-bottom: 28px;
   }
+}
+
+.subscribe_modal_input:hover {
+  border: 1px solid #8b8b8b;
+  transition-property: border;
+  transition-duration: 750ms;
+  transition-timing-function: linear;
 }
 
 .subscribe_modal_input::-moz-placeholder {
